@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+
+}
+.container {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.header {
+    background-color: #f8fafc;
+    grid-area: 1 / 2 / 2/ 6;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.header-top {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+
+}
+
+.search-bar input{
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #E2E8F0;
+    
+ 
+}
+
+.sidebar {
+    background-color: #64748b;
+    grid-area: 1 / 1 / 6 / 1 ;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    max-height: 100vh;
+}
+.sidebar img {
+    width: 24px;
+    padding: 0 10px 5px;
+    cursor: pointer;
+     
+
+}
+.dashboard {
+    padding-top: 10px;
+}
+.dashboard  h1 {
+    position: relative;
+    top: -50px;
+    left: 62px;    
+
+}
+.dashboard img {
+ width: 48px;
+ cursor: pointer;
+}
+.sidebar-middle span {
+    position: relative;
+    top: -11px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    
+}
+.sidebar-buttom span {
+    position: relative;
+    top: -11px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+.main {
+    background-color: ;
+    grid-area: 2 / 2 / 6 / 6 ;
+}
+
+
+
+[src="/icons/cat-bg.png"] {
+    width: 40px;
+    border-radius: 50%;
+}
