@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
 }
 body {
     margin: 0;
@@ -30,16 +31,44 @@ body {
 
 
 }
+.search-bar img {
+    width: 18px;
+    padding: 8px ;
+    position: relative;
+    top: 12px;
+    left: 5px;
+    
+}
 
 .search-bar input{
-    width: 300px;
+    display: inline-block;
+    width: 500px;
     height: 20px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
     background-color: #E2E8F0;
     
  
 }
+
+
+
+
+.search-bar-right{
+    padding: 5px 10px;
+    position: relative;
+    left: 20px;
+}
+[src="/icons/round_notifications_active_black_24dp.png"] {
+    width: 18px;
+}
+.search-bar-right h3 {
+    display: inline;
+    position: relative;
+    left: 15px
+}
+
+
 
 .sidebar {
     background-color: #64748b;
@@ -47,7 +76,7 @@ body {
     color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     
     max-height: 100vh;
 }
